@@ -3,6 +3,8 @@
 import "@/styles/globals.css";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+
+import { Analytics } from "@vercel/analytics/react";
 // fonts
 import { Titillium_Web } from "next/font/google";
 
@@ -50,6 +52,7 @@ export default function RootLayout({ children }) {
         />
         <ScrollToTop />
         {children}
+        <Analytics />
         <Footer />
       </body>
     </html>
