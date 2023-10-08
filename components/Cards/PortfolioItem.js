@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import Link from "next/link";
 
 import { Sora } from "next/font/google";
 
@@ -38,7 +37,6 @@ const PortfolioItem = ({ category, url, image, title }) => {
         <a
           className="portfolio-link flex items-center justify-center bg-[var(--secondary-color)] w-[70px] h-[70px] text-[#000] text-[30px] rounded-full absolute z-20 top-[70%] left-[20%] transform-[translate(-50%, -50%) scale(0.3)] transition-all duration-200 ease-linear opacity-0"
           href={url}
-          target="_blank"
         >
           <BsArrowUpRight className="w-6 h-6 font-medium icon transition-all duration-200 ease-linear" />
         </a>
@@ -46,7 +44,6 @@ const PortfolioItem = ({ category, url, image, title }) => {
           <a
             className="inline-block text-[#000] font-medium tracking-wider capitalize"
             href={url}
-            target="_blank"
           >
             {category}
           </a>

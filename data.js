@@ -114,14 +114,12 @@ export const portfolioItemsMain = [
   },
   {
     category: "Graphic Designing",
-    url: "/portfolio",
     image: "/assets/images/background/portfolio/promo.jpg",
     title: "Poster Design",
   },
 
   {
     category: "Graphic Design",
-    url: "/portfolio",
     image: "/assets/images/background/portfolio/thumb.jpg",
     title: "Thumbnail Design",
   },
@@ -133,13 +131,11 @@ export const portfolioItemsMain = [
   },
   {
     category: "GUI Development",
-    url: "/portfolio",
     image: "/assets/images/background/portfolio/gui_small.png",
     title: "Python GUI",
   },
   {
     category: "Graphic Design",
-    url: "/portfolio",
     image: "/assets/images/background/portfolio/ad.jpg",
     title: "Thumbnail Design",
   },
