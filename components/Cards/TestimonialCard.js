@@ -19,7 +19,7 @@ const TestimonialCard = ({ name, city, desc, image, stars=4, flag="/assets/image
       ref={ref}
     >
       <div className="mt-6 mb-5 p-6 rounded-md border border-[var(--third-black)] relative z-10">
-        <div className="quoters absolute w-auto h-[60px] flex items-center justify-center text-[var(--primary-color)] -top-6 right-8">
+        <div className="quoters absolute w-auto h-[60px] flex items-center justify-center text-[var(--primary-color)] -top-6 right-8 max-h-[60px]">
           <Image
             alt=""
             src={"/assets/images/misc/quoter.png"}
@@ -41,7 +41,7 @@ const TestimonialCard = ({ name, city, desc, image, stars=4, flag="/assets/image
           {desc}
         </div>
         <div className="testimonial-client relative pr-16 flex flex-wrap items-center">
-          <div className="client-image max-w-[50px] min-w-[50px] mr-[10px] rounded-full overflow-hidden transition-all duration-300 ease-linear">
+          <div className="client-image max-w-[50px] min-w-[50px] max-h-[50px] mr-[10px] rounded-full overflow-hidden transition-all duration-300 ease-linear">
             <Image
               alt=""
               src={image}

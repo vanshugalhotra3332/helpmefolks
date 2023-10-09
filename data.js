@@ -300,6 +300,14 @@ export const testimonials = [
     stars: 5,
     flag: "/assets/images/background/testimonial/canada.png",
   },
+  {
+    name: "Rajat",
+    city: "Surrey",
+    image: "/assets/images/background/testimonial/rajat.jpg",
+    desc: "I wish I had discovered HelpMeFolks earlier. It saved me so much time and stress during my final year projects.",
+    stars: 5,
+    flag: "/assets/images/background/testimonial/canada.png",
+  },
 ];
 
 export const contactItems = [
@@ -316,7 +324,6 @@ export const contactItems = [
   {
     content: "Sector 10, Chandigarh",
     icon: <MdLocationOn />,
-    url: "/",
   },
   {
     content: whatsappNumber,

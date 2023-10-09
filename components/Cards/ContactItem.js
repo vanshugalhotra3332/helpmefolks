@@ -1,9 +1,18 @@
+"use client";
+
 import React from "react";
-import Link from "next/link";
+import { useRouter } from "next/navigation";
 
 const ContactItem = ({ number, content, icon, url }) => {
+  const router = useRouter();
   return (
-    <Link className="contact-item w-full" href={url} target="_blank">
+    <div
+      className="contact-item w-full cursor-pointer"
+      target="_blank"
+      onClick={() => {
+        url && router.push(url);
+      }}
+    >
       <div className="p-4 flex relative w-full flex-wrap items-start">
         <div className="relative  min-w-[310px]">
           <div className="inner-item">
@@ -21,7 +30,7 @@ const ContactItem = ({ number, content, icon, url }) => {
           </div>
         </div>
       </div>
-    </Link>
+    </div>
   );
 };
 
