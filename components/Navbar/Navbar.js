@@ -137,7 +137,7 @@ const Navbar = () => {
       </nav>
       {/* mobile view */}
       <div
-        className={`md:hidden mobile-view bg-[var(--main-black)] absolute inset-x-0 top-0 z-20 w-full px-6 py-6 transform ${
+        className={`md:hidden sticky top-0 mobile-view bg-[var(--main-black)] inset-x-0 top-0 z-20 w-full px-6 py-6 transform ${
           isOpen ? "translate-y-0 opacity-100" : "-translate-y-full opacity-0"
         } md:mt-0 md:p-0 md:top-0 md:relative md:bg-transparent md:w-auto md:opacity-100 md:translate-x-0 md:flex md:items-center transition-all duration-500 ease-in-out z-[10000]`}
       >
