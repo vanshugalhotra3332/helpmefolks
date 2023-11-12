@@ -48,8 +48,9 @@ const sora = Sora({
 });
 
 export const metadata = {
-  title: "HelpMeFolks",
-  description: "Easing your academic journey",
+  title: "HelpMeFolks - Easing your academic journey",
+  description:
+    "Discover academic excellence with HelpMeFolks.tech! 🚀 We offer top-notch project solutions at budget-friendly rates, ensuring quality work delivered on time. Simplify your student journey with us. 📚💡 #ProjectSolutions #AcademicSuccess",
   icons: {
     icon: "/assets/images/favicon.ico",
   },
