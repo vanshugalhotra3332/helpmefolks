@@ -103,6 +103,18 @@ export const portfolioItems = [
     image: "/assets/images/background/portfolio/ad.jpg",
     title: "Thumbnail Design",
   },
+  {
+    category: "Microsoft Excel",
+    url: "/portfolio",
+    image: "/assets/images/background/portfolio/excel.png",
+    title: "Microsoft Excel",
+  },
+  {
+    category: "PowerPoint",
+    url: "/portfolio",
+    image: "/assets/images/background/portfolio/ppt.png",
+    title: "PowerPoint Presentation",
+  },
 ];
 
 export const portfolioItemsMain = [
@@ -139,6 +151,18 @@ export const portfolioItemsMain = [
     image: "/assets/images/background/portfolio/ad.jpg",
     title: "Thumbnail Design",
   },
+  {
+    category: "Microsoft Excel",
+    url: "/portfolio",
+    image: "/assets/images/background/portfolio/excel.png",
+    title: "Microsoft Excel",
+  },
+  {
+    category: "PowerPoint",
+    url: "/portfolio",
+    image: "/assets/images/background/portfolio/ppt.png",
+    title: "PowerPoint Presentation",
+  },
 ];
 
 export const servicesItems = [
@@ -170,9 +194,8 @@ export const servicesItems = [
     buttonText: "Request a Quote",
   },
   {
-    heading: "Software Development",
-    description:
-      "Unlocking Digital Potential: Turning Code into Innovative Solutions.",
+    heading: "Microsoft Office",
+    description: "MS-Word, MS-Excel, MS-PowerPoint Solutions",
     icon: "/assets/images/icons/services/software.png",
     backImage: "/assets/images/background/services/software.jpg",
     url: whatsappLink,
@@ -219,9 +242,8 @@ export const servicesItemsMain = [
     url: whatsappLink,
   },
   {
-    heading: "Software Development",
-    description:
-      "Unlocking Digital Potential: Turning Code into Innovative Solutions.",
+    heading: "Microsoft Office",
+    description: "MS-Word, MS-Excel, MS-PowerPoint Solutions",
     icon: "/assets/images/icons/services/software.png",
     url: whatsappLink,
   },
