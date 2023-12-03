@@ -72,6 +72,10 @@ export default function RootLayout({ children }) {
         <Analytics />
         <Footer />
       </body>
+      <script
+        src="//code.tidio.co/r2yrljx4uvqipzamos6pp9x7lkjitcap.js"
+        async
+      ></script>
     </html>
   );
 }
