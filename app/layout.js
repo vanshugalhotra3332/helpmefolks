@@ -71,11 +71,11 @@ export default function RootLayout({ children }) {
         {children}
         <Analytics />
         <Footer />
+        <script
+          src="//code.tidio.co/r2yrljx4uvqipzamos6pp9x7lkjitcap.js"
+          async
+        ></script>
       </body>
-      <script
-        src="//code.tidio.co/r2yrljx4uvqipzamos6pp9x7lkjitcap.js"
-        async
-      ></script>
     </html>
   );
 }
