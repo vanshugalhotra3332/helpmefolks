@@ -139,16 +139,16 @@ export default function Home() {
       <section className="stats-section my-12 hidden lg:block">
         <div className="stat-items max-w-[1338px] flex flex-col lg:flex-row justify-center items-center mx-auto relative">
           <div className="w-full md:w-1/2 xl:w-1/4">
-            <StatCard counter={"03"} text={"Years of experience"} />
+            <StatCard counter={"04"} text={"Years of experience"} />
           </div>
           <div className="w-full md:w-1/2 xl:w-1/4">
-            <StatCard counter={25} text={"Projects Completed"} />
+            <StatCard counter={30} text={"Projects Completed"} />
           </div>
           <div className="w-full md:w-1/2 xl:w-1/4">
             <StatCard counter={12} text={"Team Members"} />
           </div>
           <div className="w-full md:w-1/2 xl:w-1/4">
-            <StatCard counter={20} text={"Happy Clients"} />
+            <StatCard counter={25} text={"Happy Clients"} />
           </div>
         </div>
       </section>
