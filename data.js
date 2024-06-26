@@ -67,11 +67,12 @@ export const carouselImages = [
 
 export const portfolioItems = [
   {
-    category: "Website Development",
-    url: "https://heenasinghal.com",
-    image: "/assets/images/background/portfolio/heena_singhal.jpg",
-    title: "Personal Portfolio",
+    category: "Wordpress",
+    url: "https://kasauliforestville.com/",
+    image: "/assets/images/background/portfolio/kasauli.png",
+    title: "Forest Ville",
   },
+
   {
     category: "Graphic Designing",
     url: "/portfolio",
@@ -115,15 +116,33 @@ export const portfolioItems = [
     image: "/assets/images/background/portfolio/ppt.png",
     title: "PowerPoint Presentation",
   },
-];
-
-export const portfolioItemsMain = [
   {
     category: "Website Development",
     url: "https://heenasinghal.com",
-    image: "/assets/images/background/portfolio/heena_singhal_small.png",
+    image: "/assets/images/background/portfolio/heena_singhal.jpg",
     title: "Personal Portfolio",
   },
+  {
+    category: "Wordpress",
+    url: "https://topnotchclass.com/",
+    image: "/assets/images/background/portfolio/topnotch.png",
+    title: "Top Notch Classes",
+  },
+  {
+    category: "Command Line Programs",
+    url: "/portfolio",
+    image: "/assets/images/background/portfolio/scientific.png",
+    title: "scientific Calculator",
+  },
+  {
+    category: "Wordpress",
+    url: "https://waterlooenergy.com/",
+    image: "/assets/images/background/portfolio/waterloo.png",
+    title: "Waterloo Energy",
+  },
+];
+
+export const portfolioItemsMain = [
   {
     category: "Graphic Designing",
     image: "/assets/images/background/portfolio/promo.jpg",
@@ -158,10 +177,40 @@ export const portfolioItemsMain = [
     title: "Microsoft Excel",
   },
   {
+    category: "Wordpress",
+    url: "https://topnotchclass.com/",
+    image: "/assets/images/background/portfolio/topnotch.png",
+    title: "Top Notch Classes",
+  },
+  {
     category: "PowerPoint",
     url: "/portfolio",
     image: "/assets/images/background/portfolio/ppt.png",
     title: "PowerPoint Presentation",
+  },
+  {
+    category: "Website Development",
+    url: "https://heenasinghal.com",
+    image: "/assets/images/background/portfolio/heena_singhal_small.png",
+    title: "Personal Portfolio",
+  },
+  {
+    category: "Wordpress",
+    url: "https://kasauliforestville.com/",
+    image: "/assets/images/background/portfolio/kasauli.png",
+    title: "Forest Ville",
+  },
+  {
+    category: "Command Line Programs",
+    url: "/portfolio",
+    image: "/assets/images/background/portfolio/scientific.png",
+    title: "scientific Calculator",
+  },
+  {
+    category: "Wordpress",
+    url: "https://waterlooenergy.com/",
+    image: "/assets/images/background/portfolio/waterloo.png",
+    title: "Waterloo Energy",
   },
 ];
 
