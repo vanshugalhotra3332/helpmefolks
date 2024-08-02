@@ -67,10 +67,10 @@ export const carouselImages = [
 
 export const portfolioItems = [
   {
-    category: "Wordpress",
-    url: "https://kasauliforestville.com/",
-    image: "/assets/images/background/portfolio/kasauli.png",
-    title: "Forest Ville",
+    category: "Website Development",
+    url: "https://dareadream.in",
+    image: "/assets/images/background/portfolio/dare_dream.jpg",
+    title: "Dare Dream",
   },
 
   {
@@ -86,12 +86,7 @@ export const portfolioItems = [
     image: "/assets/images/background/portfolio/thumb.jpg",
     title: "Thumbnail Design",
   },
-  {
-    category: "Website Development",
-    url: "https://dareadream.in",
-    image: "/assets/images/background/portfolio/dare_dream.jpg",
-    title: "Dare Dream",
-  },
+
   {
     category: "GUI Development",
     url: "/portfolio",
@@ -122,23 +117,12 @@ export const portfolioItems = [
     image: "/assets/images/background/portfolio/heena_singhal.jpg",
     title: "Personal Portfolio",
   },
-  {
-    category: "Wordpress",
-    url: "https://topnotchclass.com/",
-    image: "/assets/images/background/portfolio/topnotch.png",
-    title: "Top Notch Classes",
-  },
+
   {
     category: "Command Line Programs",
     url: "/portfolio",
     image: "/assets/images/background/portfolio/scientific.png",
     title: "scientific Calculator",
-  },
-  {
-    category: "Wordpress",
-    url: "https://waterlooenergy.com/",
-    image: "/assets/images/background/portfolio/waterloo.png",
-    title: "Waterloo Energy",
   },
 ];
 
@@ -177,12 +161,6 @@ export const portfolioItemsMain = [
     title: "Microsoft Excel",
   },
   {
-    category: "Wordpress",
-    url: "https://topnotchclass.com/",
-    image: "/assets/images/background/portfolio/topnotch.png",
-    title: "Top Notch Classes",
-  },
-  {
     category: "PowerPoint",
     url: "/portfolio",
     image: "/assets/images/background/portfolio/ppt.png",
@@ -195,22 +173,10 @@ export const portfolioItemsMain = [
     title: "Personal Portfolio",
   },
   {
-    category: "Wordpress",
-    url: "https://kasauliforestville.com/",
-    image: "/assets/images/background/portfolio/kasauli.png",
-    title: "Forest Ville",
-  },
-  {
     category: "Command Line Programs",
     url: "/portfolio",
     image: "/assets/images/background/portfolio/scientific.png",
     title: "scientific Calculator",
-  },
-  {
-    category: "Wordpress",
-    url: "https://waterlooenergy.com/",
-    image: "/assets/images/background/portfolio/waterloo.png",
-    title: "Waterloo Energy",
   },
 ];
 
